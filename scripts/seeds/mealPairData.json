@@ -1,0 +1,109 @@
+[
+    {
+        "type": "Dry White",
+        "subtypes": [
+            "Sauvignon Blanc",
+            "Grüner Veltliner",
+            "Pinot Grigio",
+            "Albariño"
+        ],
+        "mealPairs": [
+            "Vegetables",
+            "Roasted Vegetables",
+            "Fish"
+        ]
+    },
+    {
+        "type": "Sweet White",
+        "subtypes": [
+            "Gewürztraminer",
+            "Müller-Thurgau",
+            "Malvasia",
+            "Moscato",
+            "Riesling"
+        ],
+        "mealPairs": [
+            "Sweets"
+        ]
+    },
+    {
+        "type": "Rich White",
+        "subtypes": [
+            "Chardonnay",
+            "Roussanne",
+            "Marsanne",
+            "Viognier"
+        ],
+        "mealPairs": [
+            "Fish",
+            "Shellfish",
+            "White Meat"
+        ]
+    },
+    {
+        "type": "Sparkling",
+        "subtypes": [
+            "Champagne",
+            "Prosecco",
+            "Cava"
+        ],
+        "mealPairs": [
+            "Vegtables",
+            "Fish"
+        ]
+    },
+    {
+        "type": "Light Red",
+        "subtypes": [
+            "St. Laurent",
+            "Pinot Noir",
+            "Zweigelt",
+            "Gamay"
+        ],
+        "mealPairs": [
+            "Roasted Vegetables",
+            "Shellfish",
+            "White Meat"
+        ]
+    },
+    {
+        "type": "Medium Red",
+        "subtypes": [
+            "Tempranillo",
+            "Sangiovese",
+            "Zinfandel",
+            "Grenache",
+            "Merlot"
+        ],
+        "mealPairs": [
+            "Roasted Vegetables",
+            "White Meat",
+            "Red Meat"
+        ]
+    },
+    {
+        "type": "Bold Red",
+        "subtypes": [
+            "Cabernet Sauvignon",
+            "Monastrell",
+            "Aglianico",
+            "Malbec",
+            "Syrah"
+        ],
+        "mealPairs": [
+            "Red Meat"
+        ]
+    },
+    {
+        "type": "Dessert",
+        "subtypes": [
+            "Late Harvest",
+            "Ice Wine",
+            "Sherry",
+            "Port"
+        ],
+        "mealPairs": [
+            "Sweets"
+        ]
+    }
+]
