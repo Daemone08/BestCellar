@@ -5,7 +5,8 @@ const mealPairsSchema = new Schema({
 
     wineType: {
         type: String,
-        required: true
+        required: true,
+        default: ""
     },
     wineSubTypes: {
         type: [String],
