@@ -1,4 +1,6 @@
 module.exports = {
-    BookPairData: require("./BookPairData"),
-    MealPairData: require("./MealPairData")
+
+    BookPairs: require("./BookPairs"),
+    MealPairs: require("./MealPairs")
+    
 };
