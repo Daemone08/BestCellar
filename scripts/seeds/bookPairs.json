@@ -3,8 +3,8 @@
         "subType": "Sauvignon Blanc",
         "type": "Dry White",
         "description": [
-            "bright",
             "crisp",
+            "balance",
             "refreshing"
         ],
         "country": "France"
@@ -23,11 +23,11 @@
         "subType": "Pinot Grigio",
         "type": "Dry White",
         "description": [
-            "",
-            "",
-            ""
+            "dry",
+            "bitter",
+            "acidic"
         ],
-        "country": ""
+        "country": "Italy"
     },
     {
         "subType": "Albariño",
@@ -43,41 +43,42 @@
         "subType": "Gewürztraminer",
         "type": "Sweet White",
         "description": [
-            "",
-            "",
-            ""
+            "spice",
+            "petals",
+            "deep"
         ],
-        "country": ""
+        "country": "Germany"
     },
     {
         "subType": "Müller-Thurgau",
         "type": "Sweet White",
         "description": [
-            "",
-            "",
-            ""
+            "bland",
+            "misunderstood",
+            "dry" ,
+            "obsolete"
         ],
-        "country": ""
+        "country": "Germany"
     },
     {
         "subType": "Malvasia",
         "type": "Sweet White",
         "description": [
-            "",
-            "",
-            ""
+            "playful",
+            "bodacious",
+            "nutty"
         ],
-        "country": ""
+        "country": "Greece"
     },
     {
         "subType": "Moscato",
         "type": "Sweet White",
         "description": [
-            "",
-            "",
-            ""
+            "Southern",
+            "wholesome",
+            "young"
         ],
-        "country": ""
+        "country": "Italy"
     },
     {
         "subType": "Riesling",
@@ -103,181 +104,181 @@
         "subType": "Roussanne",
         "type": "Rich White",
         "description": [
-            "",
-            "",
-            ""
+            "coming-of-age",
+            "elegant",
+            "complex"
         ],
-        "country": ""
+        "country": "France"
     },
     {
         "subType": "Marsanne",
         "type": "Rich White",
         "description": [
-            "",
-            "",
-            ""
+            "daughter",
+            "fresh",
+            "blossom"
         ],
-        "country": ""
+        "country": "Switzerland"
     },
     {
         "subType": "Viognier",
         "type": "Rich White",
         "description": [
-            "",
-            "",
-            ""
+            "deceptive",
+            "embellish",
+            "sombre"
         ],
-        "country": ""
+        "country": "France"
     },
     {
         "subType": "Champagne",
         "type": "Sparkling",
         "description": [
-            "",
-            "",
-            ""
+            "attractive",
+            "sensual",
+            "exclusive"
         ],
-        "country": ""
+        "country": "France"
     },
     {
         "subType": "Prosecco",
         "type": "Sparkling",
         "description": [
-            "",
-            "",
-            ""
+            "delicate",
+            "wisteria",
+            "gentle"
         ],
-        "country": ""
+        "country": "Italy"
     },
     {
         "subType": "Cava",
         "type": "Sparkling",
         "description": [
-            "",
-            "",
-            ""
+            "traditional",
+            "unique",
+            "mixed"
         ],
-        "country": ""
+        "country": "Spain"
     },
     {
         "subType": "St. Laurent",
         "type": "Light Red",
         "description": [
-            "",
-            "",
-            ""
+            "tart",
+            "avant-garde",
+            "fashion"
         ],
-        "country": ""
+        "country": "Austria"
     },
     {
         "subType": "Pinot Noir",
         "type": "Light Red",
         "description": [
-            "",
-            "",
-            ""
+            "distinctive",
+            "independent",
+            "spirited"
         ],
-        "country": ""
+        "country": "France"
     },
     {
         "subType": "Zweigelt",
         "type": "Light Red",
         "description": [
-            "",
-            "",
-            ""
+            "uncanny",
+            "Fall",
+            "resilient"
         ],
-        "country": ""
+        "country": "Austria"
     },
     {
         "subType": "Gamay",
         "type": "Light Red",
         "description": [
-            "",
-            "",
-            ""
+            "brief",
+            "young",
+            "peak"
         ],
-        "country": ""
+        "country": "france"
     },
     {
         "subType": "Tempranillo",
         "type": "Medium Red",
         "description": [
-            "",
-            "",
-            ""
+            "diverse",
+            "dominant",
+            "ripe"
         ],
-        "country": ""
+        "country": "Spain"
     },
     {
         "subType": "Sangiovese",
         "type": "Medium Red",
         "description": [
-            "",
-            "",
-            ""
+            "regime",
+            "strong",
+            "transformation"
         ],
-        "country": ""
+        "country": "Italy"
     },
     {
         "subType": "Zinfandel",
         "type": "Medium Red",
         "description": [
-            "",
-            "",
-            ""
+            "bold",
+            "combination",
+            "identifiable"
         ],
-        "country": ""
+        "country": "California"
     },
     {
         "subType": "Grenache",
         "type": "Medium Red",
         "description": [
-            "",
-            "",
-            ""
+            "soft",
+            "control",
+            "subtle"
         ],
-        "country": ""
+        "country": "Spain"
     },
     {
         "subType": "Merlot",
         "type": "Medium Red",
         "description": [
-            "",
-            "",
-            ""
+            "smooth",
+            "chameleon",
+            "popular"
         ],
-        "country": ""
+        "country": "France"
     },
     {
         "subType": "Cabernet Sauvignon",
         "type": "Bold Red",
         "description": [
-            "",
-            "",
-            ""
+            "variety",
+            "explosive",
+            "thick-skinned"
         ],
-        "country": ""
+        "country": "France"
     },
     {
         "subType": "Monastrell",
         "type": "Bold Red",
         "description": [
-            "",
-            "",
-            ""
+            "common",
+            "unoriginal",
+            "plain"
         ],
-        "country": ""
+        "country": "Spain"
     },
     {
         "subType": "Aglianico",
         "type": "Bold Red",
         "description": [
-            "",
-            "",
-            ""
+            "hearty",
+            "prep",
+            "suffice"
         ],
-        "country": ""
+        "country": "Italy"
     },
     {
         "subType": "Malbec",
@@ -293,50 +294,50 @@
         "subType": "Syrah",
         "type": "Bold Red",
         "description": [
-            "",
-            "",
-            ""
+            "reasonable",
+            "savor",
+            "exotic"
         ],
-        "country": ""
+        "country": "Australia"
     },
     {
         "subType": "Late Harvest",
         "type": "Dessert",
         "description": [
-            "",
-            "",
-            ""
+            "forgotten",
+            "simple",
+            "kind"
         ],
-        "country": ""
+        "country": "United States"
     },
     {
         "subType": "Ice Wine",
         "type": "Dessert",
         "description": [
-            "",
-            "",
-            ""
+            "complex",
+            "dexterous",
+            "develop"
         ],
-        "country": ""
+        "country": "Canada"
     },
     {
         "subType": "Sherry",
         "type": "Dessert",
         "description": [
-            "",
-            "",
-            ""
+            "vary",
+            "exclusive",
+            "salty"
         ],
-        "country": ""
+        "country": "Spain"
     },
     {
         "subType": "Port",
         "type": "Dessert",
         "description": [
-            "",
-            "",
-            ""
+            "vintage",
+            "treasure",
+            "ruby"
         ],
-        "country": ""
+        "country": "Portugal"
     }
 ]
