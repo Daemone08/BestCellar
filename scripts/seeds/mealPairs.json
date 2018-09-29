@@ -1,7 +1,7 @@
 [
     {
-        "type": "Dry White",
-        "subtypes": [
+        "wineType": "Dry White",
+        "wineSubTypes": [
             "Sauvignon Blanc",
             "Grüner Veltliner",
             "Pinot Grigio",
@@ -14,8 +14,8 @@
         ]
     },
     {
-        "type": "Sweet White",
-        "subtypes": [
+        "wineType": "Sweet White",
+        "wineSubTypes": [
             "Gewürztraminer",
             "Müller-Thurgau",
             "Malvasia",
@@ -27,8 +27,8 @@
         ]
     },
     {
-        "type": "Rich White",
-        "subtypes": [
+        "wineType": "Rich White",
+        "wineSubTypes": [
             "Chardonnay",
             "Roussanne",
             "Marsanne",
@@ -41,8 +41,8 @@
         ]
     },
     {
-        "type": "Sparkling",
-        "subtypes": [
+        "wineType": "Sparkling",
+        "wineSubTypes": [
             "Champagne",
             "Prosecco",
             "Cava"
@@ -53,8 +53,8 @@
         ]
     },
     {
-        "type": "Light Red",
-        "subtypes": [
+        "wineType": "Light Red",
+        "wineSubTypes": [
             "St. Laurent",
             "Pinot Noir",
             "Zweigelt",
@@ -67,8 +67,8 @@
         ]
     },
     {
-        "type": "Medium Red",
-        "subtypes": [
+        "wineType": "Medium Red",
+        "wineSubTypes": [
             "Tempranillo",
             "Sangiovese",
             "Zinfandel",
@@ -82,8 +82,8 @@
         ]
     },
     {
-        "type": "Bold Red",
-        "subtypes": [
+        "wineType": "Bold Red",
+        "wineSubTypes": [
             "Cabernet Sauvignon",
             "Monastrell",
             "Aglianico",
@@ -95,8 +95,8 @@
         ]
     },
     {
-        "type": "Dessert",
-        "subtypes": [
+        "wineType": "Dessert",
+        "wineSubTypes": [
             "Late Harvest",
             "Ice Wine",
             "Sherry",
