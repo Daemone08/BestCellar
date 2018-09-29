@@ -1,15 +1,16 @@
 const mongoose = require("mongoose");
 const db = require("../../models");
-const mealPairData = require("mealPairData.json")
+const bookPairsJSON= require("./bookPairs.json")
 
 mongoose.connect(
   process.env.MONGODB_URI ||
   "mongodb://localhost/bestceller"
 );
 
-db.MealPairData
+db.BookPairs
   .remove({})
-  .then(() => db.MealPairData.collection.insertMany(mealPairData))
+  .then(() => db.BookPairs.collection
+  .insertMany(bookPairsJSON))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
