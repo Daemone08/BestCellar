@@ -1,18 +1,15 @@
 const router = require("express").Router();
 const bookPairController = require("../../controllers/bookPairController");
 
-// router
+router
 
-//     // Matches with "/api/bookPairs"
-//     .route("/")
-//     .get(bookPairController.findAllBookPairs)
+    // Matches with "/api/bookPairs"
+    .route("/")
+    .get(bookPairController.findAllBookPairs)
+    .post(bookPairController.findBookPair)
 
-//     // Matches with /apiBookPairs/subType
-//     .route("/subType")
-//     .post(bookPairController.findSubType)
+    // Matches with /apiBookPairs/update
+    // .route("/update")
+    // .post(bookPairController.updateWineSubType)
 
-//     // Matches with /apiBookPairs/update
-//     .route("/subType/update")
-//     .post(bookPairController.updateSubType)
-
-// module.exports = router;
+module.exports = router;

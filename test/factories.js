@@ -39,3 +39,7 @@ module.exports.validMealPairsTwo = function () {
         ]
     };
 }
+
+module.exports.randomDocument = function(array) {
+    return array[Math.floor(Math.random() * array.length)]
+}

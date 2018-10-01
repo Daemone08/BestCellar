@@ -1,343 +1,377 @@
 [
     {
-        "subType": "Sauvignon Blanc",
-        "type": "Dry White",
+        "wineSubType": "Sauvignon Blanc",
+        "wineType": "Dry White",
         "description": [
             "crisp",
             "balance",
             "refreshing"
         ],
-        "country": "France"
+        "country": "France",
+        "bookTitles": []
     },
     {
-        "subType": "Grüner Veltliner",
-        "type": "Dry White",
+        "wineSubType": "Grüner Veltliner",
+        "wineType": "Dry White",
         "description": [
             "zesty",
             "heat",
             "summer"
         ],
-        "country": "Austria"
+        "country": "Austria",
+        "bookTitles": []
     },
     {
-        "subType": "Pinot Grigio",
-        "type": "Dry White",
+        "wineSubType": "Pinot Grigio",
+        "wineType": "Dry White",
         "description": [
             "dry",
             "bitter",
             "acidic"
         ],
-        "country": "Italy"
+        "country": "Italy",
+        "bookTitles": []
     },
     {
-        "subType": "Albariño",
-        "type": "Dry White",
+        "wineSubType": "Albariño",
+        "wineType": "Dry White",
         "description": [
             "mountain",
             "romance",
             "king"
         ],
-        "country": "Spain"
+        "country": "Spain",
+        "bookTitles": []
     },
     {
-        "subType": "Gewürztraminer",
-        "type": "Sweet White",
+        "wineSubType": "Gewürztraminer",
+        "wineType": "Sweet White",
         "description": [
             "spice",
             "petals",
             "deep"
         ],
-        "country": "Germany"
+        "country": "Germany",
+        "bookTitles": []
     },
     {
-        "subType": "Müller-Thurgau",
-        "type": "Sweet White",
+        "wineSubType": "Müller-Thurgau",
+        "wineType": "Sweet White",
         "description": [
             "bland",
             "misunderstood",
             "dry" ,
             "obsolete"
         ],
-        "country": "Germany"
+        "country": "Germany",
+        "bookTitles": []
     },
     {
-        "subType": "Malvasia",
-        "type": "Sweet White",
+        "wineSubType": "Malvasia",
+        "wineType": "Sweet White",
         "description": [
             "playful",
             "bodacious",
             "nutty"
         ],
-        "country": "Greece"
+        "country": "Greece",
+        "bookTitles": []
     },
     {
-        "subType": "Moscato",
-        "type": "Sweet White",
+        "wineSubType": "Moscato",
+        "wineType": "Sweet White",
         "description": [
             "Southern",
             "wholesome",
             "young"
         ],
-        "country": "Italy"
+        "country": "Italy",
+        "bookTitles": []
     },
     {
-        "subType": "Riesling",
-        "type": "Sweet White",
+        "wineSubType": "Riesling",
+        "wineType": "Sweet White",
         "description": [
             "medieval",
             "estate",
             "villa"
         ],
-        "country": "Germany"
+        "country": "Germany",
+        "bookTitles": []
     },
     {
-        "subType": "Chardonnay",
-        "type": "Rich White",
+        "wineSubType": "Chardonnay",
+        "wineType": "Rich White",
         "description": [
             "sensual",
             "flirt",
             "rich"
         ],
-        "country": ""
+        "country": "France",
+        "bookTitles": []
     },
     {
-        "subType": "Roussanne",
-        "type": "Rich White",
+        "wineSubType": "Roussanne",
+        "wineType": "Rich White",
         "description": [
             "coming-of-age",
             "elegant",
             "complex"
         ],
-        "country": "France"
+        "country": "France",
+        "bookTitles": []
     },
     {
-        "subType": "Marsanne",
-        "type": "Rich White",
+        "wineSubType": "Marsanne",
+        "wineType": "Rich White",
         "description": [
             "daughter",
             "fresh",
             "blossom"
         ],
-        "country": "Switzerland"
+        "country": "Switzerland",
+        "bookTitles": []
     },
     {
-        "subType": "Viognier",
-        "type": "Rich White",
+        "wineSubType": "Viognier",
+        "wineType": "Rich White",
         "description": [
             "deceptive",
             "embellish",
             "sombre"
         ],
-        "country": "France"
+        "country": "France",
+        "bookTitles": []
     },
     {
-        "subType": "Champagne",
-        "type": "Sparkling",
+        "wineSubType": "Champagne",
+        "wineType": "Sparkling",
         "description": [
             "attractive",
             "sensual",
             "exclusive"
         ],
-        "country": "France"
+        "country": "France",
+        "bookTitles": []
     },
     {
-        "subType": "Prosecco",
-        "type": "Sparkling",
+        "wineSubType": "Prosecco",
+        "wineType": "Sparkling",
         "description": [
             "delicate",
             "wisteria",
             "gentle"
         ],
-        "country": "Italy"
+        "country": "Italy",
+        "bookTitles": []
     },
     {
-        "subType": "Cava",
-        "type": "Sparkling",
+        "wineSubType": "Cava",
+        "wineType": "Sparkling",
         "description": [
             "traditional",
             "unique",
             "mixed"
         ],
-        "country": "Spain"
+        "country": "Spain",
+        "bookTitles": []
     },
     {
-        "subType": "St. Laurent",
-        "type": "Light Red",
+        "wineSubType": "St. Laurent",
+        "wineType": "Light Red",
         "description": [
             "tart",
             "avant-garde",
             "fashion"
         ],
-        "country": "Austria"
+        "country": "Austria",
+        "bookTitles": []
     },
     {
-        "subType": "Pinot Noir",
-        "type": "Light Red",
+        "wineSubType": "Pinot Noir",
+        "wineType": "Light Red",
         "description": [
             "distinctive",
             "independent",
             "spirited"
         ],
-        "country": "France"
+        "country": "France",
+        "bookTitles": []
     },
     {
-        "subType": "Zweigelt",
-        "type": "Light Red",
+        "wineSubType": "Zweigelt",
+        "wineType": "Light Red",
         "description": [
             "uncanny",
             "Fall",
             "resilient"
         ],
-        "country": "Austria"
+        "country": "Austria",
+        "bookTitles": []
     },
     {
-        "subType": "Gamay",
-        "type": "Light Red",
+        "wineSubType": "Gamay",
+        "wineType": "Light Red",
         "description": [
             "brief",
             "young",
             "peak"
         ],
-        "country": "france"
+        "country": "france",
+        "bookTitles": []
     },
     {
-        "subType": "Tempranillo",
-        "type": "Medium Red",
+        "wineSubType": "Tempranillo",
+        "wineType": "Medium Red",
         "description": [
             "diverse",
             "dominant",
             "ripe"
         ],
-        "country": "Spain"
+        "country": "Spain",
+        "bookTitles": []
     },
     {
-        "subType": "Sangiovese",
-        "type": "Medium Red",
+        "wineSubType": "Sangiovese",
+        "wineType": "Medium Red",
         "description": [
             "regime",
             "strong",
             "transformation"
         ],
-        "country": "Italy"
+        "country": "Italy",
+        "bookTitles": []
     },
     {
-        "subType": "Zinfandel",
-        "type": "Medium Red",
+        "wineSubType": "Zinfandel",
+        "wineType": "Medium Red",
         "description": [
             "bold",
             "combination",
             "identifiable"
         ],
-        "country": "California"
+        "country": "California",
+        "bookTitles": []
     },
     {
-        "subType": "Grenache",
-        "type": "Medium Red",
+        "wineSubType": "Grenache",
+        "wineType": "Medium Red",
         "description": [
             "soft",
             "control",
             "subtle"
         ],
-        "country": "Spain"
+        "country": "Spain",
+        "bookTitles": []
     },
     {
-        "subType": "Merlot",
-        "type": "Medium Red",
+        "wineSubType": "Merlot",
+        "wineType": "Medium Red",
         "description": [
             "smooth",
             "chameleon",
             "popular"
         ],
-        "country": "France"
+        "country": "France",
+        "bookTitles": []
     },
     {
-        "subType": "Cabernet Sauvignon",
-        "type": "Bold Red",
+        "wineSubType": "Cabernet Sauvignon",
+        "wineType": "Bold Red",
         "description": [
             "variety",
             "explosive",
             "thick-skinned"
         ],
-        "country": "France"
+        "country": "France",
+        "bookTitles": []
     },
     {
-        "subType": "Monastrell",
-        "type": "Bold Red",
+        "wineSubType": "Monastrell",
+        "wineType": "Bold Red",
         "description": [
             "common",
             "unoriginal",
             "plain"
         ],
-        "country": "Spain"
+        "country": "Spain",
+        "bookTitles": []
     },
     {
-        "subType": "Aglianico",
-        "type": "Bold Red",
+        "wineSubType": "Aglianico",
+        "wineType": "Bold Red",
         "description": [
             "hearty",
             "prep",
             "suffice"
         ],
-        "country": "Italy"
+        "country": "Italy",
+        "bookTitles": []
     },
     {
-        "subType": "Malbec",
-        "type": "Bold Red",
+        "wineSubType": "Malbec",
+        "wineType": "Bold Red",
         "description": [
             "adventure",
             "quest",
             "hero"
         ],
-        "country": "Argentina"
+        "country": "Argentina",
+        "bookTitles": []
     },
     {
-        "subType": "Syrah",
-        "type": "Bold Red",
+        "wineSubType": "Syrah",
+        "wineType": "Bold Red",
         "description": [
             "reasonable",
             "savor",
             "exotic"
         ],
-        "country": "Australia"
+        "country": "Australia",
+        "bookTitles": []
     },
     {
-        "subType": "Late Harvest",
-        "type": "Dessert",
+        "wineSubType": "Late Harvest",
+        "wineType": "Dessert",
         "description": [
             "forgotten",
             "simple",
             "kind"
         ],
-        "country": "United States"
+        "country": "United States",
+        "bookTitles": []
     },
     {
-        "subType": "Ice Wine",
-        "type": "Dessert",
+        "wineSubType": "Ice Wine",
+        "wineType": "Dessert",
         "description": [
             "complex",
             "dexterous",
             "develop"
         ],
-        "country": "Canada"
+        "country": "Canada",
+        "bookTitles": []
     },
     {
-        "subType": "Sherry",
-        "type": "Dessert",
+        "wineSubType": "Sherry",
+        "wineType": "Dessert",
         "description": [
             "vary",
             "exclusive",
             "salty"
         ],
-        "country": "Spain"
+        "country": "Spain",
+        "bookTitles": []
     },
     {
-        "subType": "Port",
-        "type": "Dessert",
+        "wineSubType": "Port",
+        "wineType": "Dessert",
         "description": [
             "vintage",
             "treasure",
             "ruby"
         ],
-        "country": "Portugal"
+        "country": "Portugal",
+        "bookTitles": []
     }
 ]

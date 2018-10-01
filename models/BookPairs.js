@@ -20,8 +20,10 @@ const bookPairsSchema = new Schema({
         type: String,
         required: true
     },
-    titles: {
-        type: [String]
+    bookTitles: {
+        type: [String],
+        required: true,
+        default: undefined        
     }
     
 });

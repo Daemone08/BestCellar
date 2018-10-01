@@ -36,4 +36,12 @@ describe("BookPairs model", function () {
         });
     });
 
+    it("should be invalid if bookTitles is empty", function (done) {
+        var bookPairs = new BookPairs()
+        bookPairs.validate(function (err) {
+            expect(err.errors.bookTitles).to.exist
+            done()
+        });
+    });
+
 });

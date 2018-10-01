@@ -10,7 +10,7 @@ let mealPairsJSON = require('../scripts/seeds/mealPairs.json');
 
 chai.use(chaiHttp);
 
-describe('MealPairs Controller', () => {
+describe('Meal Pairs Controller', () => {
 
     describe('/GET meal pairs', () => {
 
@@ -37,12 +37,12 @@ describe('MealPairs Controller', () => {
                 });
         });
 
-        it('it should get all meal pair documents', (done) => {
+        it('it should get all meal pair documents but no more', (done) => {
             chai.request('http://localhost:3001')
                 .get('/api/mealpairs')
                 .end((err, res) => {
 
-                    res.body.length.should.be.eql(8);
+                    res.body.length.should.be.eql(mealPairsJSON.length);
 
                     done();
                 });

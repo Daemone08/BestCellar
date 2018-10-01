@@ -3,7 +3,7 @@ const bookPairsRoutes = require("./bookpairs");
 const mealPairsRoutes = require("./mealpairs");
 
 // Book Pair Routes
-// router.use("/bookpairs", bookPairsRoutes);
+router.use("/bookpairs", bookPairsRoutes);
 // Meal Pair Routes
 router.use("/mealpairs", mealPairsRoutes);
 
