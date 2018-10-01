@@ -12,7 +12,6 @@ module.exports = {
     // FIND ALL
     findAllMealPairs: function (req, res) {
 		db.MealPairs
-			// removes events that already have passed first
 			.find({})
 			.then(dbModel => res.json(dbModel))
 			.catch(err => res.status(422).json(err));
