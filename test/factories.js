@@ -15,6 +15,14 @@ module.exports.validMealPairsOne = function () {
     };
 }
 
+module.exports.defaultModelMealPair = function () {
+    return {
+        wineType: "",
+        wineSubTypes: undefined,
+        mealPairs: undefined
+    };
+}
+
 module.exports.validMealPairsTwo = function () {
     return {
         wineType: "Light Red",

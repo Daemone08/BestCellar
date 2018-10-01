@@ -1,31 +1,32 @@
-var expect = require('chai').expect;
-var sinon = require('sinon');
-var db = require('../models')
-var mealPairController = require('../controllers/mealPairController')
-var factories = require('./factories')
+let mongoose = require("mongoose");
+let db = require('../models');
 
-describe('mealPairController', function () {
-    beforeEach(function () {
-        sinon.stub(db.MealPairs, 'find');
+//Require the dev-dependencies
+let chai = require('chai');
+let chaiHttp = require('chai-http');
+let server = require('../server');
+let should = chai.should();
+let app = require('express')
+
+chai.use(chaiHttp);
+
+//Our parent block
+describe('MealPairs Controller', () => {
+
+     describe('/GET meal pairs', () => {
+
+         it('it should GET all meal pairs', (done) => {
+            chai.request('http://localhost:3001')
+                .get('/api/mealPairs')
+                .end((err, res) => {
+
+                    res.should.have.status(200);
+                    res.body.should.be.a('array');
+                    res.body.length.should.be.eql(8);
+
+                    done();
+                });
+        });
     });
 
-
-    afterEach(function () {
-        db.MealPairs.find.restore();
-    });
-
-    it('should send all meal pair data', function () {
-        var a = factories.validMealPairsOne();
-        var b = factories.validMealPairsTwo();
-        var expectedModels = [a, b];
-        db.MealPairs.find.yields(null, expectedModels);
-        var req = { params: {} };
-        var res = {
-            send: sinon.stub()
-        };
-
-        mealPairController.findAllMealPairs(req, res)
-
-        sinon.assert.calledWith(res.send, expectedModels);
-    });
 });
