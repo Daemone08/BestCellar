@@ -28,8 +28,9 @@ module.exports = {
     updateWineSubType: function (req, res) {
         db.BookPairs
             .findOneAndUpdate(
-                { wineSubType: req.body.wineSubType },
-                { $addToSet: { titles: req.body.title } })
+                { 'wineSubType': req.body.wineSubType },
+                { $addToSet: { 'bookTitles': req.body.bookTitles } },
+                {new: true})
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err));
     },
