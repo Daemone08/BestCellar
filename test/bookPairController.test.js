@@ -11,7 +11,20 @@ let bookPairsJSON = require('../scripts/seeds/bookPairs.json');
 
 chai.use(chaiHttp);
 
+
 describe('Book Pairs Controller', () => {
+
+    let testWineSubType = factories.randomDocument(bookPairsJSON).wineSubType
+    let testTitle = 'test title'
+
+    after('Clear test book titles', (done) => {
+        db.BookPairs.findOneAndUpdate(
+            { 'wineSubType': testWineSubType },
+            { $pull: { 'bookTitles': testTitle } },
+            { new: true })
+        .then(() => done())
+        .catch(err => res.status(422).json(err));
+    })
 
     describe('/GET book pairs', () => {
 
@@ -65,7 +78,6 @@ describe('Book Pairs Controller', () => {
     });
     describe('/GET one book pair', () => {
 
-        let testWineSubType = factories.randomDocument(bookPairsJSON).wineSubType
 
         it('it should get a status 200 response', (done) => {
             chai.request('http://localhost:3001')
@@ -91,7 +103,7 @@ describe('Book Pairs Controller', () => {
                 });
         });
 
-        it('it should get one book pair documents', (done) => {
+        it('it should get one book pair document', (done) => {
             chai.request('http://localhost:3001')
                 .post('/api/bookpairs')
                 .send({ wineSubType: testWineSubType })
@@ -112,6 +124,85 @@ describe('Book Pairs Controller', () => {
                 .end((err, res) => {
 
                     res.body[0].should.include.keys('_id', 'wineSubType', 'wineType', 'description', 'country', 'bookTitles');
+
+                    done();
+                });
+        });
+    });
+
+    describe('/UPDATE one book pair', () => {
+
+        it('it should get a status 200 response', (done) => {
+            chai.request('http://localhost:3001')
+                .post('/api/bookpairs/update')
+                .send({
+                    wineSubType: testWineSubType,
+                    bookTitles: testTitle
+                })
+                .end((err, res) => {
+
+                    res.should.have.status(200);
+
+                    done();
+                });
+        });
+
+        it('it should get an object', (done) => {
+            chai.request('http://localhost:3001')
+                .post('/api/bookpairs/update')
+                .send({
+                    wineSubType: testWineSubType,
+                    bookTitles: testTitle
+                })
+                .end((err, res) => {
+
+                    res.body.should.be.a('object');
+
+                    done();
+                });
+        });
+
+        it('it should return a document with the correct keys', (done) => {
+            chai.request('http://localhost:3001')
+                .post('/api/bookpairs/update')
+                .send({
+                    wineSubType: testWineSubType,
+                    bookTitles: testTitle
+                })
+                .end((err, res) => {
+
+                    res.body.should.include.keys('_id', 'wineSubType', 'wineType', 'description', 'country', 'bookTitles');
+
+                    done();
+                });
+        });
+
+        it('it should return a document with the book title inserted', (done) => {
+            chai.request('http://localhost:3001')
+                .post('/api/bookpairs/update')
+                .send({
+                    wineSubType: testWineSubType,
+                    bookTitles: testTitle
+                })
+                .end((err, res) => {
+
+                    res.body.bookTitles.should.include(testTitle);
+
+                    done();
+                });
+        });
+
+        it("it shouldn't return a document with the book title present more than once", (done) => {
+            chai.request('http://localhost:3001')
+                .post('/api/bookpairs/update')
+                .send({
+                    wineSubType: testWineSubType,
+                    bookTitles: testTitle
+                })
+                .end((err, res) => {
+
+                    let bookTitlesString = res.body.bookTitles.toString()
+                    bookTitlesString.should.not.include(testTitle + "," + testTitle);
 
                     done();
                 });
