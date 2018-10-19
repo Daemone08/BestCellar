@@ -1,51 +1,39 @@
-// import { ADD_GREETING, REMOVE_GREETING, FRENCHIFY } from "../constants/action-types";
+import { GET_MEALPAIRS, GET_MEALPAIRS_SUCCESS, GET_MEALPAIRS_FAILURE } from "../constants/action-types";
 
-// const initialState = {
-//     greetings: [
-//         { name: 'Jim', message: 'Hello' },
-//         { name: 'Sally', message: 'Hello' },
-//         { name: 'Bender', message: 'Hello' }
-//     ]
-// };
+const initialState = {
+    status: "",
+    mealPairs: [],
+    error: ""
+};
 
-// const rootReducer = (state = initialState, action) => {
-//     switch (action.type) {
+const rootReducer = (state = initialState, action) => {
+    switch (action.type) {
 
-//         case ADD_GREETING:
-//             return {
-//                 ...state, greetings: state.greetings.concat(action.payload)
-//             };
+        case GET_MEALPAIRS:
+            const requested = Object.assign({}, state,
+                {
+                    status: action.status
+                })
+            return requested
 
-//         case REMOVE_GREETING:
-//             return ({
-//                 ...state,
-//                 greetings: state.greetings.filter(greeting => action.payload.name !== greeting.name)
-//             });
+        case GET_MEALPAIRS_SUCCESS:
+            const successful = Object.assign({}, state, {
+                status: action.status,
+                mealPairs: action.mealPairs
+            })
+            return successful
 
-//         case FRENCHIFY:
-//             return ({
-//                 ...state,
-//                 greetings: state.greetings.map((greeting, index) => {
-//                     if (greeting.name === action.payload) {
+        case GET_MEALPAIRS_FAILURE:
+            const failed = Object.assign({}, state, {
+                status: action.status,
+                error: action.error
+            })
+            return failed
 
-//                         if (greeting.message == "Hello") {
-//                             return {
-//                                 ...greeting, message: "Bonjour"
-//                             }
-//                         }
-//                         else
-                        
-//                             return {
-//                                 ...greeting, message: "Hello"
-//                             }
-//                     }
-//                     return greeting;
-//                 })
-//             });
+        default:
+            return state
 
-//         default:
-//             return state;
-//     }
-// };
+    }
+}
 
-// export default rootReducer;
+export default rootReducer;
