@@ -1,12 +1,17 @@
 {
-  "name": "mern",
+  "name": "bestcellars",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.0.14",
+    "react-test-renderer": "^16.5.2",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
