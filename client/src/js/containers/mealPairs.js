@@ -6,7 +6,7 @@ import API from "../../utils/API"
 
 const Loader = require("react-loader")
 
-const status = "loaded";
+const status = "loading";
 
 const mapDispatchToProps = dispatch => {
     return {
@@ -30,22 +30,20 @@ class ConnectedMealPairs extends Component {
     // }
 
     componentWillMount = () => {
-        // this.props.store.subscribe(this.forceUpdate.bind(this));
         this.apiRequest();
         this.getMealPairs();
-        console.log("mount")
     }
 
     apiRequest = () => {
         API.findAllMealPairs()
-          .then(response => {
-            const mealPairs = response.data;
-            this.getMealPairsSuccess(mealPairs);
-          })
-          .catch(error => {
-            this.getMealPairsFailure(error);
-          });
-      }
+            .then(response => {
+                const mealPairs = response.data;
+                this.getMealPairsSuccess(mealPairs);
+            })
+            .catch(error => {
+                this.getMealPairsFailure(error);
+            });
+    }
 
     getMealPairs = () => {
         this.props.getMealPairs()
@@ -70,13 +68,23 @@ class ConnectedMealPairs extends Component {
     //     ));
     // }
 
+    renderSelectors = () => {
+
+    }
+
     render() {
         return (
             <div className="MealPairs">
-                {status === "loading" ? (
+                {this.props.status === "loading" ? (
                     <Loader />
                 ) : (
-                        <div>{console.log(this.props)}</div>
+                        <div>
+                            <select>
+                                {this.renderSelectors()}
+                            </select>
+                            {console.log(this.props.mealPairs)}
+                        </div>
+
                     )
                 }
             </div>
